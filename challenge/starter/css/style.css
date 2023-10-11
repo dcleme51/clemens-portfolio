@@ -44,6 +44,28 @@ nav li a{
 
 }
 
+.hero-banner {
+background-image: url("../images/02-portfolio-3.jpg");
+height: 400px;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+.Aboutsec{
+  height: 500px;
+  background-color: #555;
+
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: url(../images/IMG_0202.jpg)
+
+}
 
 
 h1,
