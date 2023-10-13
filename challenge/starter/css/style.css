@@ -18,7 +18,7 @@ nav{
   height: 150px;
   line-height: 75px;
   padding: 50px;
-  background-image: linear-gradient(#033747,#012733);
+  background-image: linear-gradient(#eef1f2,#a7aaac);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,29 +44,59 @@ nav li a{
 
 }
 
-.hero-banner {
-background-image: url("../images/02-portfolio-3.jpg");
+/* .hero-banner {
+background-image: url("../images/02-portfolio-3.jpg"); 
 height: 400px;
 background-size: cover;
 background-repeat: no-repeat;
 
 
-}
+} */
 
 .Aboutsec{
   height: 500px;
   background-color: #555;
 
 }
-
-.circle {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  background-image: url(../images/IMG_0202.jpg)
+#about{
+font-size: 50px;
+justify-content:center;
+display: flex;
 
 }
 
+#circle {
+  height: 400px;
+  width: 350px;
+  border-radius: 50%;
+  margin-left: 10%;
+  bottom: 5%;
+  position:relative;
+  /* display: flex; */
+  /* padding: 20%; */
+  
+
+}
+.flex-container{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+.flex-item{
+background-color: black;
+width: 30%;
+height: 50%;
+
+}
+
+
+.refactor{
+  height: 150%;
+  
+
+}
 
 h1,
 h2,
