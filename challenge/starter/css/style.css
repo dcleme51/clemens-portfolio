@@ -10,6 +10,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-image: url("/challenge/starter/images/02-hero-bg.jpg");
   
 }
 
@@ -18,13 +19,14 @@ nav{
   height: 150px;
   line-height: 75px;
   padding: 50px;
-  background-image: linear-gradient(#eef1f2,#a7aaac);
+  background-image: linear-gradient(#fffbfb,#3c3b3b);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 nav .logo {
   padding: 75px;
+  padding-bottom: 45px;
 
 }
 nav ul{
@@ -45,7 +47,7 @@ nav li a{
 }
 
 /* .hero-banner {
-background-image: url("../images/02-portfolio-3.jpg"); 
+background-image: url("/challenge/starter/images/02-portfolio-1.jpg"); 
 height: 400px;
 background-size: cover;
 background-repeat: no-repeat;
@@ -55,7 +57,7 @@ background-repeat: no-repeat;
 
 .Aboutsec{
   height: 500px;
-  background-color: #555;
+  background-color:rgba(148, 141, 141, 0.404)
 
 }
 #about{
@@ -67,27 +69,43 @@ display: flex;
 
 #circle {
   height: 400px;
-  width: 350px;
+  width: 400px;
   border-radius: 50%;
+  border-color: black;
+  border-style: double;
   margin-left: 10%;
   bottom: 5%;
   position:relative;
-  /* display: flex; */
-  /* padding: 20%; */
-  
 
 }
-.flex-container{
+
+#about-text{
 display:flex;
-flex-wrap: wrap;
 justify-content: center;
+font-size: 25px;
+text-align: center;
+text-wrap: wrap;
+
+}
+
+
+.flex-container{
+display: flex;
+justify-content: space-between; 
+flex-direction: column;
+width: 100%;
+height: 1000px; 
+padding: 10px;
 
 
 }
 .flex-item{
-background-color: black;
-width: 30%;
-height: 50%;
+
+flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 
 }
 
@@ -95,6 +113,16 @@ height: 50%;
 .refactor{
   height: 150%;
   
+
+}
+
+.refactor-challenge > h3 {
+  flex-basis: 20%;
+  border-right: 4px solid papayawhip;
+  
+
+
+
 
 }
 
