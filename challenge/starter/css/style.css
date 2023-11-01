@@ -11,7 +11,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-image: url("/challenge/starter/images/light\ grey\ tech\ background\ image.avif");
-  object-fit: cover;
+  /* object-fit: cover; */ /* to make the image cover the entire page? */ 
   
 }
 
@@ -91,37 +91,70 @@ text-wrap: wrap;
 
 
 .flex-container{
-display: flex;
-justify-content: space-between; 
+display: flex; 
 flex-direction: column;
-width: 100%;
+/* width: 100%; */
 height: 1000px; 
 padding: 10px;
+flex-wrap:wrap; 
+
 
 
 }
 .flex-item{
 
 flex: 1;
+    display: flex;
+    justify-content: center;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-repeat: no-repeat;
 
 }
 
 
+/*
 .refactor{
   height: 150%;
   
-
 }
 
 .refactor-challenge > h3 {
   flex-basis: 20%;
   border-right: 4px solid papayawhip;
   
+}
+*/
+.refactor-challenge {
+  background-image: url("/challenge/starter/images/Code\ Refactoring.png");
+  height: 30%;
+  background-repeat: no-repeat;
+  width: 120%;
 
+  
+}
+
+.bootstrap{
+  background-image: url("/challenge/starter/images/bootstrap-5.0-illustration.png");
+  height: 30%;
+  
+}
+
+.javascript{
+  background-image: url("/challenge/starter/images/java-script.jpeg");
+  height: 30%;
+}
+
+.javascript-skills{
+  background-image: url("/challenge/starter/images/thumb-rest-api.jpg");
+  height: 30%;
+}
+
+.page-section {
+  display: flex;
+  justify-content: center;
 
 
 
