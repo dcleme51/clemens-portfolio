@@ -10,7 +10,8 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-image: url("/challenge/starter/images/02-hero-bg.jpg");
+  background-image: url("/challenge/starter/images/light\ grey\ tech\ background\ image.avif");
+  object-fit: cover;
   
 }
 
@@ -19,7 +20,7 @@ nav{
   height: 150px;
   line-height: 75px;
   padding: 50px;
-  background-image: linear-gradient(#fffbfb,#3c3b3b);
+  background-image: linear-gradient(#56575b,#f7f4ff);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,8 +47,8 @@ nav li a{
 
 }
 
-/* .hero-banner {
-background-image: url("/challenge/starter/images/02-portfolio-1.jpg"); 
+.hero-banner {
+background-image: url("/challenge/starter/images/Low\ code\ screen_banner_desktop.webp"); 
 height: 400px;
 background-size: cover;
 background-repeat: no-repeat;
