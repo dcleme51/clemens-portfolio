@@ -44,8 +44,13 @@ nav li a{
   text-transform: uppercase;
   padding: 0px 30px;
   color: black;
+  font-weight: bold;
   text-decoration: none;
   
+}
+
+.nav-titles a:hover {
+  text-decoration: underline;
 }
 
 .hero-banner {
@@ -53,7 +58,6 @@ background-image: url("/challenge/starter/images/Low\ code\ screen_banner_deskto
 height: 400px;
 background-size: cover;
 background-repeat: no-repeat;
-
 
 }
 
@@ -87,7 +91,6 @@ font-size: 25px;
 text-align: center; 
 text-wrap: wrap;
 
-
 }
 
 #projects{
@@ -97,8 +100,6 @@ text-wrap: wrap;
   color: white;
   background-image: url("/challenge/starter/images/Low\ code\ screen_banner_desktop.webp");
 
-  
-
 }
 
 .flex-container {
@@ -107,6 +108,7 @@ text-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding: 3% 20% 3% 20%;
+
 } 
 
 .flex-item {
@@ -119,11 +121,13 @@ text-wrap: wrap;
   margin-bottom: 1%;
   background-size: 150%;
   border: black solid 3px;
+
 }
 
 .flex-item:first-child {
   min-height:500px;
   flex-basis:100%;
+
 }
 
 
@@ -145,18 +149,21 @@ text-wrap: wrap;
   background-image: url("/challenge/starter/images/java-script.jpeg");
   background-size: cover;
   background-position: center;
+
 }
 
 .javascript-skills{
   background-image: url("/challenge/starter/images/thumb-rest-api.jpg");
   background-size: cover;
   background-position: center;
+
 }
   
 .resume{
   background-image: url("/challenge/starter/images/download.jpg");
   background-size: cover;
   background-position: center;
+
 }
 
 .contact-footer {
@@ -164,35 +171,41 @@ text-wrap: wrap;
   color: white;
   padding: 20px;
   text-align: center;
+
 }
  
 .contact-footer h2 {
   font-size: 25px;
   margin-bottom: 20px;
+
 }
  
 .contact-info {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
  
 .contact-info p {
   font-size: 20px;
   margin: 0;
   padding: 0 40px;
+
 }
  
 .contact-info a {
   color: white;
   text-decoration: none;
+
 }
  
 .contact-info a:hover {
   text-decoration: underline;
+  
 }
 
- 
+
 
 
 
