@@ -11,8 +11,6 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-image: url("/challenge/starter/images/light\ grey\ tech\ background\ image.avif");
-  /* object-fit: cover; */
-  /* to make the image cover the entire page? */
 
 }
 
@@ -229,5 +227,23 @@ color: white;
 
 .contact-info a:hover {
   text-decoration: underline;
+
+}
+
+@media screen and (max-width: 600px) {
+  nav li a {
+    font-size: 12px;
+    padding: 0px 
+    
+  }
+  nav {
+    flex-direction: column;
+
+  }
+  nav ul {
+    float: right;
+    display: flex;
+    flex-direction: column;
+  }
 
 }
