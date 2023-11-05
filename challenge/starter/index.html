@@ -14,71 +14,82 @@
   <nav>
     <div class="logo">
       <img src="images/Clemens logo2.png">
-    </div>  
-      <ul class="nav-titles">
-          <li><a href=#>About me</a></li>
-          <li><a href=#>Projects</a></li>
-          <li><a href=#>Resume</a></li>
-          <li><a href=#>Contact</a></li>
-      </ul>
-    </nav>
+    </div>
+    <ul class="nav-titles">
+      <li><a href="#Aboutsec">About me</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href=#>Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
   </header>
 
   <hero>
-  <section class="hero-banner"> 
-  </section>
-</hero>
+    <section class="hero-banner">
+    </section>
+  </hero>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section Aboutsec">
-      <h2 id="about">About Me</h2> 
-      <p class id="about-text"> Hi welcome to my personal porfolio page! 
-        My name is Clemens a trainee front-end web developer who is in the process of honing the craft within HTML, CSS and JavaScript. Aspiring to transiton from a product design and recruitment background in to the tech field and front-end development.  </p>
-      <img src="./images/IMG_0202.jpg" alt="Profile Picture" id="circle">
-    </section>
-    
-    <section class="page-section">
-      <h2 id="projects">Projects</h2>
-      <div class= "flex-container">
-      <a href="https://dcleme51.github.io/refactor-challenge-website/" class="flex-item refactor-challenge">
-        <div>
-          <h3>Refactoring Marketing Website</h3>
+    <section class="page-section" id="Aboutsec">
+      <h2 id="about">About Me</h2>
+      <div class="about-content">
+        <div class="text-box">
+          <p id="about-text"> Hi welcome to my personal porfolio page!
+            My name is Clemens a trainee front-end web developer who is in the process of honing the craft within HTML,
+            CSS
+            and JavaScript. Aspiring to transiton from a product design and recruitment background in to the tech field
+            and
+            front-end development. </p>
         </div>
-      </a>
-        <a href="https://dcleme51.github.io/refactor-challenge-website/" class="flex-item  bootstrap" >
+        <img src="./images/IMG_0202.jpg" alt="Profile Picture" id="circle">
+      </div>
+    </section>
+
+    <section class="page-section" id="project">
+      <h2 id="projects">Projects</h2>
+      <div class="flex-container">
+        <a href="https://dcleme51.github.io/refactor-challenge-website/" class="flex-item refactor-challenge">
           <div>
-            <h3>Using Bootstarp for Portfolio</h3>
+            <h3>Refactoring Marketing Website</h3>
+          </div>
+
+        <a href="#" class="flex-item bootstrap" title="Pending">
+          <div>
+            <h3>Using Bootstrap for Portfolio</h3>
           </div>
         </a>
-        <a href="https://dcleme51.github.io/refactor-challenge-website/" class="flex-item  javascript" placeholder="Pending">
+        <a href= "#" class="flex-item  javascript"
+          title="Pending">
           <div>
             <h3> Basics of JavaScript</h3>
           </div>
         </a>
-        <a href="https://dcleme51.github.io/refactor-challenge-website/" class="flex-item  javascript-skills" placeholder="Pending">
+        <a href="#" class="flex-item  javascript-skills"
+          title="Pending">
           <div>
             <h3>Developing JavaScript skills</h3>
           </div>
         </a>
-        <a href="https://dcleme51.github.io/refactor-challenge-website/" class="flex-item resume" placeholder="Pending">
+        <a href="" class="flex-item resume" placeholder="Pending">
           <div>
             <h3>Resume</h3>
           </div>
         </a>
       </div>
     </section>
-    
+
   </main>
 
-  <footer class="contact-footer">
+  <footer class="contact-footer" id="contact">
     <h2>Contact Me</h2>
     <div class="contact-info">
-      <p>Email: <a href="dcleme51@gmail.com">dcleme51@gmail.com</a></p>
-      <p>Phone: +447956003025</p>
-      <p>GitHub: <a href="https://github.com/dcleme51">github.com/dcleme51</a></p>
+      <p>Email: <a href="mailto:dcleme51@gmail.com">dcleme51@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/clemensbenedict/">Clemens Benedict</a></p>
+      <p>GitHub: <a href="https://github.com/dcleme51">dcleme51</a></p>
     </div>
   </footer>
+
 </body>
 
 </html>
