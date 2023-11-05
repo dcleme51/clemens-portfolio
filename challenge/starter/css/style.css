@@ -10,7 +10,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-image: url("/challenge/starter/images/light-grey-tech-background-image.avif");
+  background-image: url("../images/light-grey-tech-background-image.avif");
 
 }
 
@@ -57,7 +57,7 @@ nav li a {
 }
 
 .hero-banner {
-  background-image: url("/challenge/starter/images/Low-code-screen-banner-desktop.webp");
+  background-image: url("../images/Low-code-screen-banner-desktop.webp");
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ nav li a {
   justify-content: center;
   font-size: 30px;
   color: white;
-  background-image: url("/challenge/starter/images/Low-code-screen-banner-desktop.webp");
+  background-image: url("../images/Low-code-screen-banner-desktop.webp");
 
 }
 
@@ -151,42 +151,42 @@ nav li a {
 
 
 .refactor-challenge {
-  background-image: url("/challenge/starter/images/Code-Refactoring.png");
+  background-image: url("../images/Code-Refactoring.png");
   background-size: cover;
   background-position: center;
 
 }
 
 .bootstrap {
-  background-image: url("/challenge/starter/images/bootstrap-5.0-illustration.png");
+  background-image: url("../images/bootstrap-5.0-illustration.png");
   background-size: cover;
   background-position: center;
 
 }
 
 .javascript {
-  background-image: url("/challenge/starter/images/java-script.jpeg");
+  background-image: url("../images/java-script.jpeg");
   background-size: cover;
   background-position: center;
 
 }
 
 .javascript-skills {
-  background-image: url("/challenge/starter/images/thumb-rest-api.jpg");
+  background-image: url("../images/thumb-rest-api.jpg");
   background-size: cover;
   background-position: center;
 
 }
 
 .resume {
-  background-image: url("/challenge/starter/images/download.jpg");
+  background-image: url("../images/download.jpg");
   background-size: cover;
   background-position: center;
 
 }
 
 .contact-footer {
-  background-image: url("/challenge/starter/images/Low-code-screen-banner-desktop.webp");
+  background-image: url("../images/Low-code-screen-banner-desktop.webp");
   color: white;
   padding: 20px;
   text-align: center;
